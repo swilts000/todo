@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 public class Todo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public long id;
+    private Long id;
     private String text;
     private boolean done;
 }
